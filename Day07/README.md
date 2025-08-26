@@ -1,6 +1,6 @@
 # Coding Challenge Solutions
 
-This repository contains solutions to Day 4 problems.
+This repository contains solutions to Day 7 problems.
 
 ---
 
