@@ -1,6 +1,6 @@
 # Coding Challenge Solutions
 
-This repository contains solutions for Day 1 problems.
+Day 1 problems.
 
 ---
 
@@ -9,11 +9,15 @@ This repository contains solutions for Day 1 problems.
 **Problem:**  
 Given an array `nums` containing `n` distinct numbers in the range `[0, n]`, return the only number in the range that is missing from the array.
 
+--
+
 **Approach:**  
 - Calculate the expected sum of numbers from `0` to `n` using the formula \( \frac{n \times (n+1)}{2} \).
 - Compute the actual sum of elements in `nums`.
 - The missing number is the difference between the expected sum and the actual sum.
 - This works because the array is guaranteed to contain all numbers except one missing number.
+
+--
 
 **Complexity:**  
 - Time: \(O(n)\), single pass to sum elements.
@@ -26,6 +30,8 @@ Given an array `nums` containing `n` distinct numbers in the range `[0, n]`, ret
 **Problem:**  
 Given the head of a singly linked list, reverse the list and return the reversed list.
 
+--
+
 **Approach:**  
 - Initialize two pointers: `prev` as `None` and `current` as `head`.
 - Traverse the linked list:
@@ -34,6 +40,8 @@ Given the head of a singly linked list, reverse the list and return the reversed
   - Move `prev` and `current` one step forward.
 - At the end, `prev` points to the new head of the reversed list.
 - Return `prev`.
+
+--
 
 **Complexity:**  
 - Time: \(O(n)\), traversing the list once.
