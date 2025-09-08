@@ -12,12 +12,12 @@ Given an integer array, determine the sign of the product of all elements:
 - Return `-1` if negative  
 - Return `0` if the product contains zero  
 
----
+--
 
 **Constraints:**  
 - Elements can be any integers, including zero and negatives.
 
----
+--
 
 **Approach:**  
 - Initialize a sign variable as `1`.  
@@ -26,7 +26,7 @@ Given an integer array, determine the sign of the product of all elements:
   - If an element is negative, flip the sign by multiplying by `-1`.  
 - After full traversal, return the final sign.
 
----
+--
 
 **Complexity:**  
 - Time: O(n), where n is the length of the array  
@@ -39,13 +39,13 @@ Given an integer array, determine the sign of the product of all elements:
 **Problem:**  
 Given the head of a sorted linked list, delete all nodes that have duplicate numbers, leaving only distinct numbers from the original list.
 
----
+--
 
 **Constraints:**  
 - The linked list is sorted  
 - Can contain duplicate values  
 
----
+--
 
 **Approach:**  
 - Use a dummy node pointing to the head for easier edge case handling.  
@@ -53,7 +53,7 @@ Given the head of a sorted linked list, delete all nodes that have duplicate num
 - For a sequence of duplicates, skip all nodes with that value and connect `prev.next` to the first distinct node after duplicates.  
 - Otherwise, move `prev` forward.
 
----
+--
 
 **Complexity:**  
 - Time: O(n), where n is number of nodes in the list  
