@@ -1,6 +1,6 @@
 # Coding Challenge Solutions
 
-This repository contains solutions to Day 4 problems.
+Day 4 problems.
 
 ---
 
@@ -9,6 +9,8 @@ This repository contains solutions to Day 4 problems.
 **Problem:**  
 Given an integer `x`, return `true` if `x` is a palindrome, and `false` otherwise.
 
+--
+
 **Approach:**  
 - Convert the integer to a string for easy comparison  
 - Create two strings:  
@@ -16,6 +18,8 @@ Given an integer `x`, return `true` if `x` is a palindrome, and `false` otherwis
   - One built by iterating backward through the digits  
 - Compare the two strings for equality  
 - Return true if they match, false otherwise  
+
+--
 
 **Complexity:**  
 - Time: O(n) where n is number of digits  
@@ -28,12 +32,16 @@ Given an integer `x`, return `true` if `x` is a palindrome, and `false` otherwis
 **Problem:**  
 Given the head of a linked list, determine if it contains a cycle.
 
+--
+
 **Approach (Floyd's Cycle-Finding Algorithm):**  
 - Initialize two pointers: slow (moves 1 step) and fast (moves 2 steps)  
 - Traverse the list:  
   - If fast reaches null → no cycle  
   - If slow meets fast → cycle exists  
 - Efficiently detects cycles without extra memory  
+
+--
 
 **Complexity:**  
 - Time: O(n)  
