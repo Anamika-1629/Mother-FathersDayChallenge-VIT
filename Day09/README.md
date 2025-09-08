@@ -1,6 +1,6 @@
 # Coding Challenge Solutions
 
-This repository contains solutions to Day 9 problems.
+Day 9 problems.
 
 ---
 
