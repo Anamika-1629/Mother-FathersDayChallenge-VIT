@@ -16,18 +16,18 @@ This repository contains all solutions for the final day of the 50-day challenge
 - Day 4 - Palindrome No, Linked list cycle  
 - Day 5 - Valid perfect square, Palindrome linked list  
 - Day 6 - Happy no, Remove linked list elements  
-- Day 7 - Rotate list, plus one  
+- Day 7 - Rotate list, Plus One  
 - Day 8 - Odd-Even Linked List, Excel Sheet Column Number  
 - Day 9 - nth Digit, Swapping Nodes in a Linked List  
-- Day 10 - Bulb Switcher, deleting the Middle Node of a Linked List  
-- Day 11 - Factorial Trailing zeroes, remove nth node from the end of linked list  
+- Day 10 - Bulb Switcher, Deleting the Middle Node of a Linked List  
+- Day 11 - Factorial Trailing zeroes, Remove nth Node from the End of Linked List  
 - Day 12 - Count Odd Numbers in an Interval Range, Inserting GCD in a Linked List  
 - Day 13 - Sign of the Product of an Array, Remove Duplicates from Sorted List II
 - Day 14 - Reverse Integer, Partition List  
-- Day 15 - Excel Sheet Column Title, add two no  
+- Day 15 - Excel Sheet Column Title, Add Two No  
 - Day 16 - Sum of Square Numbers, Delete Node in a Linked List  
-- Day 17 - two sum, min stack  
-- Day 18 - contain duplicates, implement Queue using Stacks  
+- Day 17 - Two Sum, Min Stack  
+- Day 18 - Contain Duplicates, Implement Queue using Stacks  
 - Day 19 - Valid Parentheses, Best Time to Buy and Sell Stock  
 - Day 20 - Evaluate Reverse Polish Notation, Find Greatest Common Divisor of Array  
 - Day 21 - Valid Parenthesis String, Pascal's Triangle II  
