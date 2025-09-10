@@ -22,7 +22,7 @@ This repository contains all solutions for the final day of the 50-day challenge
 - Day 10 - Bulb Switcher, deleting the Middle Node of a Linked List  
 - Day 11 - Factorial Trailing zeroes, remove nth node from the end of linked list  
 - Day 12 - Count Odd Numbers in an Interval Range, Inserting GCD in a Linked List  
-- Day 13 - Sign of the Product of an Array, Remove Duplicates from Sorted List II 🔁  
+- Day 13 - Sign of the Product of an Array, Remove Duplicates from Sorted List II
 - Day 14 - Reverse Integer, Partition List  
 - Day 15 - Excel Sheet Column Title, add two no  
 - Day 16 - Sum of Square Numbers, Delete Node in a Linked List  
