@@ -9,8 +9,6 @@ Day 3 problems.
 **Problem:**  
 A perfect number is a positive integer that equals the sum of its proper positive divisors (excluding itself). Given an integer `num`, return `true` if it's perfect, otherwise `false`.
 
---
-
 **Approach:**  
 - Handle edge cases (numbers ≤ 1) immediately  
 - Initialize sum with 1 (smallest proper divisor)  
@@ -20,8 +18,6 @@ A perfect number is a positive integer that equals the sum of its proper positiv
   - Avoid duplicate addition for square numbers  
   - Early termination if sum exceeds num  
 - Compare final sum to original number  
-
---
 
 **Complexity:**  
 - Time: O(√n)  
@@ -34,8 +30,6 @@ A perfect number is a positive integer that equals the sum of its proper positiv
 **Problem:**  
 Merge two sorted linked lists and return the head of the merged list.
 
---
-
 **Approach:**  
 - Create dummy node as starting point  
 - Use current pointer to build new list  
@@ -43,8 +37,6 @@ Merge two sorted linked lists and return the head of the merged list.
   - Attach smaller node to current  
   - Move pointer of the list that contributed the node  
 - Attach remaining nodes when one list is exhausted  
-
---
 
 **Complexity:**  
 - Time: O(n + m)  
