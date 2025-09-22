@@ -1,4 +1,4 @@
-class Solution {
+class SearchInsertPosition {
     public int searchInsert(int[] nums, int target) {
         int l = 0, r = nums.length - 1;
         while (l <= r) {
@@ -15,7 +15,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        SearchInsertPosition sol = new SearchInsertPosition();
         int[] nums = {1, 3, 5, 6};
         int target = 5;
         System.out.println(sol.searchInsert(nums, target)); 
