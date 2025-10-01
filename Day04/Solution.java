@@ -14,7 +14,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        PerfectNo solution = new PerfectNo();
         int[] testCases = {121, -121, 10, 545, 12321};
         
         for (int num : testCases) {

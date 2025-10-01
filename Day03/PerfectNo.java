@@ -1,4 +1,4 @@
-public class Solution {
+public class PerfectNo {
     public boolean checkPerfectNumber(int num) {
         if (num <= 1) {
             return false;
