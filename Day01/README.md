@@ -28,7 +28,7 @@ Given the head of a singly linked list, reverse the list and return the reversed
 
 **Approach:**  
 - Initialize two pointers: `prev` as `None` and `current` as `head`.  
-- Traverse the linked list:  
+- Traverse the linked list:-  
   - Store the next node temporarily.  
   - Reverse the `next` pointer of the current node to point to `prev`.  
   - Move `prev` and `current` one step forward.  
