@@ -24,7 +24,7 @@ public class PerfectNo {
     }
 
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        Palindrome sol = new Palindrome();
         int[] tests = {6, 28, 496, 8128, 5, 12, 33550336};
         
         for (int n : tests) {
