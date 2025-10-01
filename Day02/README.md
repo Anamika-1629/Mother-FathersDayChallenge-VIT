@@ -33,7 +33,7 @@ Given an integer `num`, repeatedly add all its digits until the result has only 
 - Convert the number to string to extract digits easily, sum them, and repeat until single digit. 
 
 **Complexity:**  
-- Time: O(log n), where n is the size of the input number (number of digits).  
+- Time: O(log n), where n is the size of the input number (no. of digits).  
 - Space: O(d), where d is the number of digits during summation.
 
 ---
